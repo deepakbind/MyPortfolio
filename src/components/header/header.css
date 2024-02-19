@@ -64,9 +64,9 @@
         height: var(--header-height);
     }
 
-    .nav__menu{
+     .nav__menu{
         position: fixed;
-        bottom: -100%;
+        bottom: 0;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -74,7 +74,7 @@
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
-    }
+    } 
 
     /* show menu */
 
@@ -121,7 +121,7 @@
 
 
 /* for small devices */
-@media screen and (max-width:350px){
+/* @media screen and (max-width:350px){
   .nav__menu{
     padding: 2rem 0.25rem 4rem;
   }
@@ -129,4 +129,30 @@
   .nav__list{
     column-gap: 0;
   }
-}
+} */
+
+/* for small devices */
+@media screen and (max-width:350px){
+    .nav__menu{
+      padding: 2rem 0.25rem 4rem;
+    }
+  
+    .nav__list{
+      column-gap: 0;
+    }
+  
+    .nav__toggle{
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: block; /* Ensure the toggle button is visible */
+    }
+  
+    .nav__close{
+      display: none; /* Hide the close button on small devices */
+    }
+  
+    .show-menu .nav__toggle{
+      display: none; /* Hide the toggle button when menu is shown */
+    }
+  }
+  

@@ -46,7 +46,6 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#skills"
-                href="#skills"
                 onClick={() => setActiveNav("#skills")}
                 className={
                   activeNav === "#skills"
@@ -60,7 +59,6 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#services"
                 href="#services"
                 onClick={() => setActiveNav("#services")}
                 className={
@@ -76,7 +74,6 @@ const Header = () => {
             <li className="nav__item">
               <a
                 href="#portfolio"
-                href="#portfolio"
                 onClick={() => setActiveNav("#portfolio")}
                 className={
                   activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"
@@ -88,7 +85,6 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#contact"
                 href="#contact"
                 onClick={() => setActiveNav("#contact")}
                 className={

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 import "./contact.css";
 
@@ -38,7 +39,7 @@ const Contant = () => {
                 className="contact__button"
               >
                 Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <FaLongArrowAltRight />
               </a>
             </div>
 
@@ -53,7 +54,7 @@ const Contant = () => {
                 className="contact__button"
               >
                 Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <FaLongArrowAltRight />
               </a>
             </div>
 
@@ -65,7 +66,7 @@ const Contant = () => {
 
               <a href="https://m.me/codinglover" className="contact__button">
                 Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                <FaLongArrowAltRight />
               </a>
             </div>
           </div>
